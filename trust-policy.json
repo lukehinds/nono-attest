@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "instruction_patterns": ["SKILLS*", "CLAUDE*", "AGENT.MD"],
+  "instruction_patterns": ["SKILLS.md", "scripts/call_weather.py"],
   "publishers": [
     {
       "name": "github-ci",
       "issuer": "https://token.actions.githubusercontent.com",
-      "repository": "always-further/test-sk-prov",
+      "repository": "lukehinds/test-action",
       "workflow": ".github/workflows/sign-skills.yml",
       "ref_pattern": "refs/heads/main"
     }

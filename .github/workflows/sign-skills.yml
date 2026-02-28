@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'SKILLS.md'
+      - 'SKILL.md'
       - 'scripts/call_weather.py'
   workflow_dispatch:
 
