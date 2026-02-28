@@ -21,4 +21,4 @@ jobs:
       - name: Sign instruction files
         uses: always-further/nono-sigstore-action@main
         with:
-          files: "SKILLS.md scripts/call_weather.py"
+          files: "SKILL.md scripts/call_weather.py"
