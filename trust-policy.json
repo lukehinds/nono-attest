@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "instruction_patterns": ["SKILLS*", "CLAUDE*", "AGENT.MD"],
+  "publishers": [
+    {
+      "name": "github-ci",
+      "issuer": "https://token.actions.githubusercontent.com",
+      "repository": "always-further/test-sk-prov",
+      "workflow": ".github/workflows/sign-skills.yml",
+      "ref_pattern": "refs/heads/main"
+    }
+  ],
+  "blocklist": {"digests": []},
+  "enforcement": "deny"
+}
+
